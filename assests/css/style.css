@@ -81,14 +81,14 @@ p {
 .contact-me{
     padding: 70px;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fanily);
     color: var(--purple);
 }
 
 .work {
     padding: 70px;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fanily);
     color: var(--purple);
     display: flex;
 }
@@ -190,11 +190,21 @@ img,
     font-size: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px){
     .work-image {
         max-width: 48%;
         margin: 1%;
     }
+    .contact-me h2{
+        display: none;
+        
+    }
+    .about-me h2 {
+        display: none;
+    }
+
+    .work {
+        display: none;
 
 }
 
@@ -204,5 +214,15 @@ img,
         max-width: 80%;
         margin: 1% auto;
     }
+    .contact-me h2 {
+        display: none;
+    }
 
+    .about-me h2 {
+        display: none;
+    }
+
+    .work {
+        display: none;
+    }
 }
