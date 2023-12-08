@@ -31,7 +31,7 @@ header {
 .page-title {
     font-family: var(--font-fanily);
     color: var(--purple);
-    font-size: 45px;
+    font-size: 30px;
     position: relative;
     left: 50px;
     overflow: hidden;
@@ -195,17 +195,6 @@ img,
         max-width: 48%;
         margin: 1%;
     }
-    .contact-me h2{
-        display: none;
-        
-    }
-    .about-me h2 {
-        display: none;
-    }
-
-    .work {
-        display: none;
-
 }
 
 @media screen and (max-width: 600px) {
